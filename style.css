@@ -1,0 +1,90 @@
+.body {
+  margin: 0;
+}
+
+.keyboard__wrapper {
+  margin: 0 auto;
+  width: auto;
+  height: 700px;
+}
+
+.title,
+.description,
+.language {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(62, 62, 62);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description,
+.language {
+  font-size: 12px;
+  padding: 0;
+}
+
+.textarea__section {
+  width: 700px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.textarea {
+  width: 700px;
+  height: 200px;
+  font-size: 20px;
+  color: rgb(62, 62, 62);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  resize: none;
+}
+
+.keyboard__section {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.keyboard {
+  background: #d8d8d8;
+  border: 3px solid #222222;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+
+/* 
+  buttons 
+*/
+
+.keyboard-key__button {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.Backspace, 
+.CapsLock, 
+.ShiftLeft {
+  width: 100px;
+}
+
+.Space {
+  width: 325px;
+}
+
+.Enter,
+.ShiftRight {
+  width: 86px;
+}
+
+.Tab {
+  width: 50px;
+}
+
+.Delete {
+  width: 44px;
+}
