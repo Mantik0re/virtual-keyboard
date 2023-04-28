@@ -26,16 +26,17 @@
 }
 
 .textarea__section {
-  width: 700px;
+  width: 722px;
   height: 200px;
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 .textarea {
   width: 700px;
   height: 200px;
+  padding: 10px 10px 0 10px;
   font-size: 20px;
   color: rgb(62, 62, 62);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -45,6 +46,7 @@
 .keyboard__section {
   width: 700px;
   margin: 10px auto;
+  
 }
 
 .keyboard {
@@ -86,5 +88,5 @@
 }
 
 .Delete {
-  width: 44px;
+  width: 45px;
 }
