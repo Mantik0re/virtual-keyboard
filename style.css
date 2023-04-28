@@ -66,6 +66,12 @@
   height: 40px;
   margin-left: 5px;
   margin-bottom: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.keyboard-key__button:hover {
+  background-color: lightcoral;
 }
 
 .Backspace, 
@@ -74,8 +80,19 @@
   width: 100px;
 }
 
+.Backspace:hover, 
+.CapsLock:hover, 
+.ShiftLeft:hover {
+  background-color:rgb(20, 93, 203);
+}
+
 .Space {
   width: 325px;
+  color: rgba(0, 0, 0, 0);
+}
+
+.Space:hover {
+  background-color:rgb(44, 194, 64);
 }
 
 .Enter,
@@ -83,10 +100,23 @@
   width: 86px;
 }
 
+.Enter:hover,
+.ShiftRight:hover {
+  background-color:rgb(21, 173, 194);
+}
+
 .Tab {
   width: 50px;
 }
 
+.Tab:hover {
+  background-color:rgb(220, 245, 94);
+}
+
 .Delete {
   width: 45px;
+}
+
+.Delete:hover {
+  background-color:rgb(149, 9, 168);
 }
