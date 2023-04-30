@@ -68,6 +68,8 @@
   margin-bottom: 5px;
   cursor: pointer;
   transition: 1s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .keyboard-key__button:hover {
@@ -119,4 +121,11 @@
 
 .Delete:hover {
   background-color:rgb(149, 9, 168);
+}
+
+.button-press-animation {
+  border-radius: 70%;
+  animation-duration: .1s;
+  color: white;
+  transition: all 0.2s;
 }
