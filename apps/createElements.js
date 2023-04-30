@@ -118,4 +118,14 @@ keyBoardButtons.forEach(button => {
 
   // Добавляем кнопку на клавиатуру
   keyboard.appendChild(keyButton);
+
+  // Анимация кнопки
+  keyButton.addEventListener("mousedown", () => {
+    console.log(`Кнопка ${button.value} (${button.code}) была нажата`);
+    keyButton.classList.add("button-press-animation");
+  });
+
+  keyButton.addEventListener("mouseup", () => {
+    keyButton.classList.remove("button-press-animation");
+  });
 });
