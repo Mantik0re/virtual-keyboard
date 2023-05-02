@@ -137,6 +137,12 @@ keyBoardButtons.forEach(button => {
     }
   });
 
+  keyButton.addEventListener('click', function (event) {
+    if (event.target.tagName === 'BUTTON') {
+      textarea.value += event.target.innerText;
+    }
+  });
+
 });
 
 
