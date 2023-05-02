@@ -129,14 +129,6 @@ keyBoardButtons.forEach(button => {
     keyButton.classList.remove("button-press-animation");
   });
 
-  textareaElement.addEventListener('click', event => {
-    if (event.target.nodeName === 'button') {
-      const button = event.target;
-      const text = button.textContent;
-      textarea.value += text;
-    }
-  });
-
   keyButton.addEventListener('click', function (event) {
     if (event.target.tagName === 'BUTTON') {
       textarea.value += event.target.innerText;
